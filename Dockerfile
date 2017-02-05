@@ -9,7 +9,7 @@ RUN mkdir -p /var/log/supervisor
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-# isntall oyyd-blog
+# install oyyd-blog
 
 COPY blog.oyyd.net.crt /etc/ssl/certs/blog.oyyd.net.crt
 COPY blog.oyyd.net.key /etc/ssl/private/blog.oyyd.net.key
