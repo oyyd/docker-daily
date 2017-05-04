@@ -11,4 +11,4 @@ COPY nginx.conf /usr/local/etc/nginx/blog.conf
 
 EXPOSE 80 443
 
-CMD nginx -c /usr/local/etc/nginx/blog.conf
+CMD nginx -c /usr/local/etc/nginx/blog.conf  && tail -f /dev/null
